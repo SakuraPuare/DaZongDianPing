@@ -1,0 +1,10 @@
+database:
+  database: "my_database"
+  username: "my_username"
+  password: "my_password"
+  host: "my_host"
+
+account:
+  username:
+  password:
+  phone:
