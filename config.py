@@ -6,7 +6,9 @@ import yaml
 
 class Config:
     def __init__(self, path: pathlib.Path = pathlib.Path('config.yaml')):
+        self.account = None
         self.config = self.load(path)
+        self.database = None
 
         for key, value in self.config.items():
             setattr(self, key, value)
