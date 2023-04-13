@@ -5,6 +5,5 @@ database:
   host: "my_host"
 
 account:
-  username:
-  password:
   phone:
+  password: 
